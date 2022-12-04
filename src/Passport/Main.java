@@ -1,3 +1,5 @@
+package Passport;
+
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -7,18 +9,18 @@ public class Main {
     public static void main(String[] args) {
 
         Passport ivan = new Passport(
-                Collections.singleton("523HQG"),
+               "523HQG",
                 "Иванов",
                 "Иван",
                 "Иванович", "01.01.1980");
         Passport sergei = new Passport(
-                Collections.singleton("184AEW"),
+                "184AEW",
                 "Сергеев",
                 "Сергей",
                 "Сергеевич",
                 "02.02.1957");
         Passport andrei = new Passport(
-                Collections.singleton("591KРB"),
+                "591KРB",
                 "Андреев",
                 "Андрей",
                 "Андреевич",

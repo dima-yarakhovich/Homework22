@@ -1,3 +1,4 @@
+package Teacher;
 import java.util.Objects;
 
 public class Pair {
